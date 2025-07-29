@@ -407,3 +407,51 @@ footer {
   padding: 6px 14px;
   border-radius: 8px;
 }
+
+
+
+/* Basic nav menu styles */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Hamburger hidden on large screens */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+    .navbar {
+        justify-content: space-between;
+    }}
+
+
+    body {
+  background-color: #ede3d2; /* Warm sand background */
+  color: #2c2c2c; /* Dark grey for better contrast */
+  font-family: 'Segoe UI', sans-serif;
+}
+
