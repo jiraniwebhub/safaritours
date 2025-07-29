@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safari Tours</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER & NAVBAR ================= -->
+  <header class="hero">
+    <div class="navbar">
+      <h1 class="logo">Safari Tours</h1>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#adventures">Adventures</a></li>
+          <li><a href="#booking">Car Booking</a></li>
+          <li><a href="#hotels">Hotels</a></li>
+          <li><a href="#specials">Specials</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#frequent">Popular Places</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </div>
+<!-- ========== HERO CONTENT ========== -->
+<div class="hero-content">
+  <h1>Explore Africa with Safari Tours</h1>
+  <p>Your adventure begins here — Discover nature, wildlife, and wonders.</p>
+  <a href="#destinations" class="btn">Discover Now</a>
+</div>
+</header>
+<!-- ========== ABOUT ========== -->
+<section class="about" id="about">
+  <h2>About Safari Tours</h2>
+  <p>Safari Tours is your trusted travel companion offering unforgettable experiences across Africa's most stunning landscapes. From the Maasai Mara to Mount Kilimanjaro, we guide you through nature’s best.</p>
+  <img src="images/about.jpeg" alt="About Safari Tours">
+</section>
+
+<!-- ========== DESTINATIONS ========== -->
+<section class="destination" id="destinations">
+  <h2>Top Destinations</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/serengeti.jpeg" alt="Serengeti">
+      <div class="card-content">
+        <h3>Serengeti</h3>
+        <p>Experience the Great Migration and endless plains of wildlife.</p>
+        <span class="price">KES 14,000</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/maasai.jpeg" alt="Maasai Mara">
+      <div class="card-content">
+        <h3>Maasai Mara</h3>
+        <p>Witness lions, elephants, and the Big Five in this iconic reserve.</p>
+        <span class="price">KES 13,500</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/mountkenya.jpeg" alt="Mount Kenya">
+      <div class="card-content">
+        <h3>Mount Kenya</h3>
+        <p>Take a hike to Africa’s second highest peak with stunning views.</p>
+        <span class="price">KES 11,500</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ADVENTURES ========== -->
+<section class="adventure" id="adventures">
+  <h2>Adventure Packages</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/safari.jpeg" alt="Big Five Safari">
+      <div class="card-content">
+        <h3>Big Five Safari</h3>
+        <p>Track Africa’s majestic Big Five with expert guides.</p>
+        <span class="price">KES 20,000</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/rafting.jpeg" alt="Rafting">
+      <div class="card-content">
+        <h3>River Rafting</h3>
+        <p>Thrill-filled river journey through scenic rapids.</p>
+        <span class="price">KES 15,000</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/hiking.jpeg" alt="Trekking">
+      <div class="card-content">
+        <h3>Mountain Trekking</h3>
+        <p>Challenge yourself on Kenya’s breathtaking mountain trails.</p>
+        <span class="price">KES 12,000</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HOTELS ========== -->
+<section class="hotel" id="hotels">
+  <h2>Top Hotels</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/lodge.jpg" alt="Serengeti Lodge">
+      <div class="card-content">
+        <h3>Serengeti Lodge</h3>
+        <p>Stay in the heart of the wildlife action in total comfort.</p>
+        <span class="price">KES 9,500/night</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/mountain-hotel.jpeg" alt="Mountain Inn">
+      <div class="card-content">
+        <h3>Mountain Peak Inn</h3>
+        <p>Ideal base for trekkers and hikers near Mount Kenya.</p>
+        <span class="price">KES 8,200/night</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/beach-resort.jpeg" alt="Beach Resort">
+      <div class="card-content">
+        <h3>Coastal Breeze Resort</h3>
+        <p>Relax and unwind by the ocean after your safari trip.</p>
+        <span class="price">KES 10,500/night</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== VEHICLES ========== -->
+<section class="vehicle" id="vehicles">
+  <h2>Safari Vehicles</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/landcruiser.jpeg" alt="Land Cruiser">
+      <div class="card-content">
+        <h3>Land Cruiser</h3>
+        <p>Perfect for off-road game drives.</p>
+        <span class="price">KES 10,000/day</span>
+      </div>
+    </div>
+
+       <div class="card">
+      <img src="images/van.jpeg" alt="Tour Van">
+      <div class="card-content">
+        <h3>Tour Van</h3>
+        <p>Ideal for small groups exploring the parks.</p>
+        <span class="price">KES 7,000/day</span>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img src="images/bus.jpeg" alt="Tour Bus">
+      <div class="card-content">
+        <h3>Tour Bus</h3>
+        <p>Comfortable seating for large groups .</p>
+        <span class="price">KES 12,000/day</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SPECIAL PACKAGE ========== -->
+<section class="special" id="family-package">
+  <h2>Family Adventure Deal</h2>
+  <p>Includes 3 days in Maasai Mara, all meals, and guided tours.</p>
+  <p><strong>KES 60,000 for 2 adults + 1 child</strong></p>
+</section>
+
+<!-- ========== VEHICLE BOOKING FORM ========== -->
+
+
+<!-- ========== TESTIMONIALS ========== -->
+<section class="testimonial" id="testimonial-1">
+  <h2>Client Testimonial</h2>
+  <p>"Unforgettable trip to the Maasai Mara. Professional guides and amazing wildlife!"</p>
+  <h4>— Grace M., Nairobi</h4>
+</section>
+
+<section class="testimonial" id="testimonial-2">
+  <h2>Client Testimonial</h2>
+  <p>"Booked a family adventure and the team made everything so smooth. Highly recommend!"</p>
+  <h4>— Daniel O., Mombasa</h4>
+</section>
+
+<!-- ========== FREQUENTLY VISITED PLACES ========== -->
+ <section class="frequently visited places" id="frequently visited places">frequently visited places</section>
+<section class="frequent-place" id="nakuru">
+  <h2>Lake Nakuru National Park</h2>
+  <p>Famous for flamingos and rhinos in Kenya’s Rift Valley.</p>
+</section>
+
+<section class="frequent-place" id="tsavo">
+  <h2>Tsavo East & West</h2>
+  <p>Massive wild parks filled with elephants and stunning scenery.</p>
+</section>
+
+<section class="frequent-place" id="amboseli">
+  <h2>Amboseli National Park</h2>
+  <p>See Mount Kilimanjaro's backdrop with elephants roaming below.</p>
+</section>
+
+<section class="frequent-place" id="ngorongoro">
+  <h2>Ngorongoro Crater</h2>
+  <p>A massive volcanic crater full of diverse wildlife in Tanzania.</p>
+</section>
+
+<section class="frequent-place" id="victoria">
+  <h2>Lake Victoria Shores</h2>
+  <p>Relax by Africa’s largest lake, enjoy fishing and cultural visits.</p>
+</section>
+
+
+ 
+
+ 
+
+  <!-- ================= SCRIPT ================= -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("nav-menu");
+      menu.classList.toggle("show");
+    }
+  </script>
+
+
+
+<!-- ========== BOOK YOUR EXPERIENCE ========== -->
+<section class="unified-booking" id="booking">
+  <h2>Book Your Safari Experience</h2>
+  <p>Ready for adventure? Book a vehicle or package of your choice below.</p>
+  <form class="booking-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="date" required>
+    <input type="time" required>
+    <select required>
+      <option value="">Select Vehicle Type (optional)</option>
+      <option>Land Cruiser</option>
+      <option>Tour Van</option>
+      <option>Tour Bus</option>
+    </select>
+    <select>
+      <option value="">Select Adventure Package (optional)</option>
+      <option>Big Five Safari</option>
+      <option>River Rafting</option>
+      <option>Mountain Trekking</option>
+      <option>Family Adventure Deal</option>
+    </select>
+    <button type="submit">Submit Booking</button>
+  </form>
+</section>
+
+
+
+<!-- ========== RATE OUR SERVICES ========== -->
+<section class="ratings" id="ratings">
+  <h2>Rate Our Services</h2>
+  <form class="rating-form">
+    <label for="stars">Your Rating:</label>
+    <select id="stars" required>
+      <option value="">Choose Stars</option>
+      <option value="1">⭐</option>
+      <option value="2">⭐⭐</option>
+      <option value="3">⭐⭐⭐</option>
+      <option value="4">⭐⭐⭐⭐</option>
+      <option value="5">⭐⭐⭐⭐⭐</option>
+    </select>
+    <textarea placeholder="Tell us what you loved or what we could improve..."></textarea>
+    <button type="submit">Submit Rating</button>
+  </form>
+</section>
+
+
+
+
+ <!-- ================= FOOTER ================= -->
+  <footer>
+    <p>Safari Tours &copy; 2025 | Powered by <strong>Jirani Web Hub</strong></p>
+  </footer>
+
+</body>
+</html>
